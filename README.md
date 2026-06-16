@@ -12,5 +12,5 @@ raw: datos sin procesar
 -resporte 
 
 #Equipo 
-Jazmín Nava Polvo 
+Jazmín Nava Polvo y
 Dana María Nava Avelar 
