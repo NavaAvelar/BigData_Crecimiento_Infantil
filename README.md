@@ -3,21 +3,31 @@ Este proyecto desarrolla un pipeline de Big Data para el análisis y predicción
 
 #Estructura 
 La estructura del repositorio esta constituida por las siguientes carpetas:
+
 -datos
+
 procesados: stunting_limpio.csv y stunting_bigdata.csv 
+
 raw: dataset_unicef.xlsx
 
 -scripts
+
 explorar_columnas.py
+
 limpieza.py
+
 exploracion.py
+
 generar_dataset.py
+
 spark_eda.py
+
 spark_model.py
 
 -dashboard
 
 -resporte 
+
 ProyectoBigData.pdf
 
 1. Clonar el repositorio
