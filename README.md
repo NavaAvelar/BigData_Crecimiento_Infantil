@@ -5,26 +5,21 @@ Este proyecto desarrolla un pipeline de Big Data para el análisis y predicción
 La estructura del repositorio esta constituida por las siguientes carpetas:
 
 -datos
-
 procesados: stunting_limpio.csv y stunting_bigdata.csv 
-
 raw: dataset_unicef.xlsx
 
 -scripts
-
 explorar_columnas.py
-
 limpieza.py
-
 exploracion.py
-
 generar_dataset.py
-
 spark_eda.py
-
 spark_model.py
 
 -dashboard
+Visualización de resultados.pdf
+Visualización del conjunto creado.pdf
+Visualización del conjunto original.pdf
 
 -resporte 
 
@@ -33,16 +28,29 @@ ProyectoBigData.pdf
 1. Clonar el repositorio
 git clone https://github.com/usuario/proyecto-bigdata-stunting.git
 cd proyecto-bigdata-stunting
+
 3. Crear entorno virtual desde Ubuntu
 python3 -m venv venv source venv/bin/activate
-4. Explorar el dataset original
+
+5. Explorar el dataset original
 python scripts/explorar_columnas.py
-5. Limpiar los datos
+
+7. Limpiar los datos
 python scripts/limpieza.py 
 genera:stunting_limpio.csv
-6. Exploración del conjunto stunting_limpio
+
+9. Exploración del conjunto stunting_limpio
 python scripts/exploracion.py
-7. Generar dataset sintético 
+
+11. Generar dataset sintético 
+python scripts/generar_dataset.py
+genera:stunting_bigdata.csv
+
+12. Análisis exploratorio con Spark
+spark-submit scripts/spark_eda.py
+
+13. Entrenar modelos predictivos
+spark-submit scripts/spark_model.py
 
 #Equipo 
 Jazmín Nava Polvo y
