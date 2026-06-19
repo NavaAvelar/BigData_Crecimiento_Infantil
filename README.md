@@ -26,7 +26,8 @@ Visualización del conjunto original.pdf
 ProyectoBigData.pdf
 
 1. Clonar el repositorio
-git clone https://github.com/usuario/proyecto-bigdata-stunting.git
+   
+git clone git clone https://github.com/NavaAvelar/BigData_Crecimiento_Infantil.git
 cd proyecto-bigdata-stunting
 
 3. Crear entorno virtual desde Ubuntu
