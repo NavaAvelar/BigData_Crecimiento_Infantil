@@ -37,7 +37,7 @@ El proyecto requiere las siguientes bibliotecas de Python:
 - seaborn
 - scikit-learn
 
-Instalar mediante en caso de no tenerlas:
+Instalar dependendencias en caso de no tenerlas:
 
 ```bash
 pip install -r requirements.txt
@@ -45,40 +45,40 @@ pip install -r requirements.txt
 
 1. Clonar el repositorio
    
-git clone git clone https://github.com/NavaAvelar/BigData_Crecimiento_Infantil.git
-cd BigData_Crecimiento_Infantil
+- git clone git clone https://github.com/NavaAvelar/BigData_Crecimiento_Infantil.git
+- cd BigData_Crecimiento_Infantil
 
 3. Crear entorno virtual desde Ubuntu (estas pueden ser opcionales)
 
-python3 -m venv venv
+- python3 -m venv venv
 Arctivar entorno 
-source venv/bin/activate
+- source venv/bin/activate
 
 5. Explorar el dataset original
 
-python scripts/explorar_columnas.py
+- python scripts/explorar_columnas.py
 
 7. Limpiar los datos
 
-python scripts/limpieza.py 
-genera:stunting_limpio.csv
+- python scripts/limpieza.py 
+- genera:stunting_limpio.csv
 
 9. Exploración del conjunto stunting_limpio
 
-python scripts/exploracion.py
+- python scripts/exploracion.py
 
 11. Generar dataset sintético
 
-python scripts/generar_dataset.py
-genera:stunting_bigdata.csv
+- python scripts/generar_dataset.py
+- genera:stunting_bigdata.csv
 
 12. Análisis exploratorio con Spark
 
-spark-submit scripts/spark_eda.py
+- spark-submit scripts/spark_eda.py
 
 13. Entrenar modelos predictivos
 
-spark-submit scripts/spark_model.py
+- spark-submit scripts/spark_model.py
 
 ### Nota para el punto 12 y 13 puede requerir cambiar la ruta 
 
@@ -86,7 +86,7 @@ En algunos entornos de Apache Spark puede ser necesario especificar la ruta abso
 
 Ejemplo:
 
-file:///home/USUARIO/BigData_Crecimiento_Infantil/datos/procesados/stunting_bigdata.csv
+- file:///home/USUARIO/BigData_Crecimiento_Infantil/datos/procesados/stunting_bigdata.csv
 
 Sustituya `USUARIO` por el nombre de usuario correspondiente a su sistema.
 
