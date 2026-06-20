@@ -1,6 +1,8 @@
-Pandas
+pandas
 numpy
 matplotlib
 scikit-learn
 pyspark 
 jupyter
+openpyxl
+seaborn
